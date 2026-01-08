@@ -1,0 +1,13 @@
+/* Base styles loaded by index.html. Tailwind handles most styling via CDN. */
+/* This file prevents a 404 in dev and is safe to keep empty or minimal. */
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Smooth fonts and background color as a fallback if Tailwind CDN fails */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fcfcfc;
+}
