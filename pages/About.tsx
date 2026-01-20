@@ -20,7 +20,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200" className="w-full h-[600px] object-cover" alt="Architectural Detail" />
+            <img src="/projects/washington/578%20S%20Washington%20St%20Denver%20CO-large-002-11-Exterior%20Front-1500x1000-72dpi.jpg" className="w-full h-[600px] object-cover" alt="Architectural Detail" />
             <div className="absolute -bottom-12 -left-12 bg-[#d4cfc9] p-12 hidden lg:block max-w-xs">
                <p className="font-serif text-2xl italic">"Our goal isn't just to build a house, but to craft a legacy piece of the Denver skyline."</p>
             </div>
