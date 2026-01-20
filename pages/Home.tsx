@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Button from '../components/Button';
 import { PROJECTS } from '../constants';
 import { ChevronRight, ArrowRight, Quote } from 'lucide-react';
@@ -20,6 +20,13 @@ const TESTIMONIALS = [
     author: "Mark & Elena",
     project: "Cherry Creek Modern"
   }
+];
+
+const HERO_IMAGES = [
+  '/projects/sunnyside/210217IMG_1548.jpg',
+  '/projects/lakewood/7377%20Highland%20Drive%20Lakewood-large-001-9-Exterior%20Front-1500x1000-72dpi.jpg',
+  '/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-003-20-Exterior%20Front%20Entry-1500x1000-72dpi.jpg',
+  '/projects/s%20penn/982%20S%20Pennsylvania%20St%20Denver-large-004-3-Front%20Porch-1500x1000-72dpi.jpg'
 ];
 
 const PREVIEW_STEPS = [
@@ -47,8 +54,16 @@ const PREVIEW_STEPS = [
 
 const Home: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [heroIndex, setHeroIndex] = useState(0);
 
-  useEffect(() => {
+    useEffect(() => {
+    const id = window.setInterval(() => {
+      setHeroIndex((i) => (i + 1) % HERO_IMAGES.length);
+    }, 6000);
+    return () => window.clearInterval(id);
+  }, []);
+
+useEffect(() => {
     const observerOptions = {
       threshold: 0.15,
       rootMargin: '0px 0px -50px 0px'
@@ -77,13 +92,27 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/projects/sunnyside/210217IMG_1548.jpg" 
-            alt="Custom Modern Denver Home" 
-            className="w-full h-full object-cover brightness-50"
-          />
+          {HERO_IMAGES.map((src, idx) => (
+            <img
+              key={src}
+              src={src}
+              alt="Synergistic Development project"
+              className={\`absolute inset-0 w-full h-full object-cover brightness-50 transition-opacity duration-1000 ease-in-out ${idx === heroIndex ? 'opacity-100' : 'opacity-0'}\`}
+            />
+          ))}
         </div>
-        
+
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+          {HERO_IMAGES.map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setHeroIndex(idx)}
+              aria-label={\`Go to slide ${idx + 1}\`}
+              className={\`h-[6px] w-[28px] transition-all duration-300 ${idx === heroIndex ? 'bg-white' : 'bg-white/40 hover:bg-white/70'}\`}
+            />
+          ))}
+        </div>
+
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif text-white mb-8 leading-tight animate-in slide-in-from-bottom-8 duration-1000">
             Built for the <br /> <span className="italic">Denver Life.</span>
