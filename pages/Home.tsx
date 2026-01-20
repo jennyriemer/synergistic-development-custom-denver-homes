@@ -6,17 +6,17 @@ import { ChevronRight, ArrowRight, Quote } from 'lucide-react';
 
 const TESTIMONIALS = [
   {
-    quote: "Synergistic Development transformed our vision into a reality that exceeded every expectation. Their attention to detail in the framing and finish work is second to none in Denver.",
+    quote: "Synergistic Development delivered a high-touch build experience with clear planning and exceptional execution. Their attention to detail in framing and finish work set a new standard for our Denver project.",
     author: "The Andersons",
     project: "Hilltop Custom Build"
   },
   {
-    quote: "Professional, transparent, and remarkably disciplined. They managed our complex renovation with zero surprises and total clarity from start to finish.",
+    quote: "Professional, transparent, and remarkably disciplined. They guided our large-scale home remodel in Denver with clear budgeting, proactive coordination, and consistent communication from start to finish.",
     author: "Sarah J.",
     project: "Wash Park Renovation"
   },
   {
-    quote: "The most organized construction team we've ever worked with. Their process-driven approach made building our dream home a genuinely enjoyable experience.",
+    quote: "The most organized construction team we've worked with. Their process-driven approach kept decisions, schedules, and site activity predictable—and the finished home reflects that level of care.",
     author: "Mark & Elena",
     project: "Cherry Creek Modern"
   }
@@ -118,7 +118,7 @@ useEffect(() => {
             Built for the <br /> <span className="italic">Denver Life.</span>
           </h1>
           <p className="text-xl text-gray-200 mb-12 max-w-2xl mx-auto font-light leading-relaxed animate-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
-            Crafting architectural residences through a process rooted in transparency, discipline, and uncompromising detail.
+            Synergistic Development is a Denver residential construction company specializing in custom homes and large-scale home remodels across the Denver Metro and Front Range—delivered through a clear, disciplined process.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
             <Button to="/contact">Start Your Project</Button>
@@ -137,7 +137,7 @@ useEffect(() => {
                 Selective by Design. <br /> Professional by Trade.
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                We believe in quality over volume. By taking on a limited number of projects each year, we ensure every home receives the rigorous management and architectural integrity it deserves. Our deep knowledge of Denver’s unique neighborhoods allows us to navigate complex builds with ease.
+                We work exclusively with individual homeowners who are planning custom homes in Denver, Colorado and major renovations. Our approach is intentionally selective—so each project receives detailed planning, consistent communication, and craftsmanship that holds up for decades in Denver’s climate and conditions.
               </p>
               <div className="grid grid-cols-2 gap-8 py-8 border-y border-gray-100">
                 <div>
@@ -180,7 +180,7 @@ useEffect(() => {
                 <span className="uppercase tracking-[0.3em] text-xs text-gray-400 font-bold mb-4 block">Methodology</span>
                 <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">How We <br /> Work</h2>
                 <p className="text-gray-600 mb-8 leading-relaxed max-w-xl">
-                  Our process is engineered to eliminate surprises and maximize transparency. We guide you through four essential stages to bring your vision to life.
+                  Our design-build approach is structured to reduce surprises and keep decisions clear. From feasibility and design coordination through permits, construction, and closeout, we guide Denver homeowners through a defined sequence—so scope, budget, and schedule stay aligned.
                 </p>
                 <Button to="/process" variant="outline" className="group">
                   Explore Our Process <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -276,7 +276,7 @@ useEffect(() => {
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10 reveal">
           <h2 className="text-4xl md:text-6xl font-serif mb-12">Ready to define <br /><span className="italic">your space?</span></h2>
           <p className="text-xl text-gray-400 mb-12 max-w-xl mx-auto font-light">
-            We are currently accepting inquiries for custom builds and major renovations for 2025. Let’s discuss your vision.
+            We are currently scheduling select custom home builds and major renovations for 2026. Share your scope and timeline and we’ll confirm fit, next steps, and availability.
           </p>
           <Button to="/contact" variant="secondary" className="px-12 py-5">
             Request a Consultation <ArrowRight size={18} className="ml-3" />
