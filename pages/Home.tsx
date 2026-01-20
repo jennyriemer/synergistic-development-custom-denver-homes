@@ -59,7 +59,7 @@ const Home: React.FC = () => {
     useEffect(() => {
     const id = window.setInterval(() => {
       setHeroIndex((i) => (i + 1) % HERO_IMAGES.length);
-    }, 6000);
+    }, 3000);
     return () => window.clearInterval(id);
   }, []);
 
