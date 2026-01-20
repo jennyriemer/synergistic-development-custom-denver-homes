@@ -267,30 +267,30 @@ export const PROCESS_STEPS: ProcessStep[] = [
     number: '01',
     title: 'Initial Consultation',
     description:
-      'We begin with an in-depth discussion about your vision, site potential, and lifestyle needs. This phase determines if our high-touch approach aligns with your goals.'
+      'We start with a focused consultation to understand your scope, priorities, and site conditions. This step clarifies fit and establishes an initial path for a custom home or large-scale remodel in Denver.'
   },
   {
     number: '02',
     title: 'Design & Planning',
     description:
-      'Collaborating with premier local architects, we refine every detail. We prioritize material selection and spatial flow before a single shovel hits the ground.'
+      'We coordinate with your architect and design team to refine drawings, selections, and constructability. The goal is a complete plan—so budget, schedule, and design decisions are aligned before construction begins.'
   },
   {
     number: '03',
     title: 'Pre-Construction',
     description:
-      'Transparency is key. We finalize budgets, obtain permits, and assemble our specialized trade partners to ensure a seamless transition into the build.'
+      'We finalize pricing, permitting, and trade scheduling with clear documentation. This phase sets expectations and prevents midstream surprises—especially important for Denver zoning and permit timelines.'
   },
   {
     number: '04',
     title: 'Build Phase',
     description:
-      'Our site supervisors manage every variable with precision. You’ll receive regular, honest communication and structured site walkthroughs at key milestones.'
+      'We manage the jobsite with disciplined scheduling, quality control, and structured homeowner updates. You receive consistent communication and milestone walkthroughs as the build progresses.'
   },
   {
     number: '05',
     title: 'Completion & Follow-Up',
     description:
-      'Building a home is the start of a relationship. After handover, we provide detailed documentation and a structured follow-up schedule to ensure lasting quality.'
+      'Completion includes punch-list closure, clean documentation, and clear follow-up. Our team remains available after handover to ensure the home performs as intended and details are resolved promptly.'
   }
 ];
