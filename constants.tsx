@@ -87,7 +87,39 @@ export const PROJECTS: Project[] = [
     image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200',
     description: 'High-performance chef’s kitchen integrated into a refined living space with bespoke cabinetry and integrated lighting.'
   }
-];
+,
+  {
+    id: '9',
+    title: '918 S Emerson',
+    category: 'New Build',
+    location: 'Washington Park',
+    image: '/projects/emerson/emerson_01.jpg',
+    description: 'New construction single-family home in Washington Park. Design-build project featuring 3,720 square feet of living space with a detached 2 1/2 car garage.',
+    longDescription: 'A ground-up design/build single-family home in Washington Park delivering 3,720 sq ft of refined living. The plan emphasizes natural light, practical circulation, and a cohesive interior palette, culminating in a detached 2 1/2 car garage and outdoor living spaces.',
+    facts: [
+      { label: 'Scope', value: 'Design-Build New Construction' },
+      { label: 'Square Footage', value: '3,720 sq ft' },
+      { label: 'Garage', value: 'Detached 2 1/2 Car' },
+      { label: 'Location', value: 'Washington Park' }
+    ],
+    gallery: [
+      '/projects/emerson/emerson_01.jpg',
+      '/projects/emerson/emerson_02.jpg',
+      '/projects/emerson/emerson_03.jpg',
+      '/projects/emerson/emerson_04.jpg',
+      '/projects/emerson/emerson_05.jpg',
+      '/projects/emerson/emerson_06.jpg',
+      '/projects/emerson/emerson_07.jpg',
+      '/projects/emerson/emerson_08.jpg',
+      '/projects/emerson/emerson_09.jpg',
+      '/projects/emerson/emerson_10.jpg',
+      '/projects/emerson/emerson_11.jpg',
+      '/projects/emerson/emerson_12.jpg',
+      '/projects/emerson/emerson_13.jpg',
+      '/projects/emerson/emerson_14.jpg',
+      '/projects/emerson/emerson_15.jpg'
+    ]
+  }];
 
 export const PROCESS_STEPS: ProcessStep[] = [
   {
