@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <h2 className="text-3xl font-serif mb-8">Synergistic Development</h2>
             <p className="text-gray-400 leading-relaxed max-w-sm">
-              Architecturally driven custom homes and selective renovations across the Denver Metro area.
+              Architecturally driven custom homes and large-scale home remodels in Denver and across the Front Range.
             </p>
             <div className="flex space-x-4 pt-4">
               <a href="#" className="p-2 border border-gray-700 hover:border-white transition-colors"><Instagram size={18} /></a>
