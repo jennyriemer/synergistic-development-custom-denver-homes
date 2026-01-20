@@ -5,11 +5,11 @@ import Button from '../components/Button';
 import { ProcessStep } from '../types';
 
 const PROCESS_IMAGES = [
-  "https://images.unsplash.com/photo-1497366216548-37526070297c", // Step 01: Consultation
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c", // Step 02: Design & Planning
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d", // Step 03: Pre-Construction
-  "https://images.unsplash.com/photo-1541888946425-d81bb19240f5", // Step 04: Build Phase
-  "https://images.unsplash.com/photo-1613545325278-f24b0cae1224"  // Step 05: Completion
+  "/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-003-20-Exterior%20Front%20Entry-1500x1000-72dpi.jpg", // Step 01
+  "/projects/lakewood/7377%20Highland%20Drive%20Lakewood-large-011-2-Kitchen-1500x1000-72dpi.jpg", // Step 02
+  "/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-007-17-Dining%20Room-1500x1000-72dpi.jpg", // Step 03
+  "/projects/s%20penn/982%20S%20Pennsylvania%20St%20Denver-large-036-38-Back%20Yard-1500x1000-72dpi.jpg", // Step 04
+  "/projects/lakewood/7377%20Highland%20Drive%20Lakewood-large-027-33-Deck-1500x1000-72dpi.jpg", // Step 05
 ];
 
 interface StepItemProps {
@@ -90,7 +90,7 @@ const StepItem: React.FC<StepItemProps> = ({ step, index, image }) => {
       <div className="lg:col-span-5">
         <div className="relative overflow-hidden shadow-2xl">
           <img 
-            src={`${image}?auto=format&fit=crop&q=80&w=1200`} 
+            src={/^https?:\/\//.test(image) ? `${image}?auto=format&fit=crop&q=80&w=1200` : image} 
             alt={step.title}
             className={`w-full h-[400px] object-cover transition-all duration-1000 transform ${
               isVisible ? 'grayscale-0 brightness-100 scale-100' : 'grayscale brightness-90 scale-105'
