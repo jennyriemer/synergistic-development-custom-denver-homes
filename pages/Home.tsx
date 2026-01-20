@@ -78,7 +78,7 @@ const Home: React.FC = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000" 
+            src="/projects/sunnyside/210217IMG_1548.jpg" 
             alt="Custom Modern Denver Home" 
             className="w-full h-full object-cover brightness-50"
           />
@@ -122,8 +122,8 @@ const Home: React.FC = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-               <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80&w=800" className="reveal-scale aspect-[3/4] object-cover w-full transition-all duration-700 shadow-lg" alt="Architectural Detail" />
-               <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800" className="reveal-scale delay-200 aspect-[3/4] object-cover w-full mt-12 transition-all duration-700 shadow-lg" alt="Interior Detail" />
+               <img src="/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-008-3-Kitchen-1500x1000-72dpi.jpg" className="reveal-scale aspect-[3/4] object-cover w-full transition-all duration-700 shadow-lg" alt="Architectural Detail" />
+               <img src="/projects/s%20penn/982%20S%20Pennsylvania%20St%20Denver-large-008-6-Living%20Room-1500x1000-72dpi.jpg" className="reveal-scale delay-200 aspect-[3/4] object-cover w-full mt-12 transition-all duration-700 shadow-lg" alt="Interior Detail" />
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ const Home: React.FC = () => {
             <div className="lg:col-span-5 hidden lg:block">
               <div className="relative aspect-[4/5] overflow-hidden group reveal-scale">
                 <img 
-                  src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1200" 
+                  src="/projects/mariposa/kyliefitts_3640mariposast_web_9.jpg" 
                   alt="Architectural Planning" 
                   className="w-full h-full object-cover brightness-90 transition-all duration-1000 scale-105 group-hover:scale-100"
                 />
@@ -242,7 +242,7 @@ const Home: React.FC = () => {
       {/* Final CTA */}
       <section className="py-32 bg-[#1a1a1a] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-           <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=2000" className="w-full h-full object-cover" alt="" />
+           <img src="/projects/sunnyside/210217IMG_1539.jpg" className="w-full h-full object-cover" alt="" />
         </div>
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10 reveal">
           <h2 className="text-4xl md:text-6xl font-serif mb-12">Ready to define <br /><span className="italic">your space?</span></h2>
