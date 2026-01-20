@@ -97,7 +97,7 @@ useEffect(() => {
               key={src}
               src={src}
               alt="Synergistic Development project"
-              className={\`absolute inset-0 w-full h-full object-cover brightness-50 transition-opacity duration-1000 ease-in-out ${idx === heroIndex ? 'opacity-100' : 'opacity-0'}\`}
+              className={`absolute inset-0 w-full h-full object-cover brightness-50 transition-opacity duration-1000 ease-in-out ${idx === heroIndex ? 'opacity-100' : 'opacity-0'}`}
             />
           ))}
         </div>
@@ -107,8 +107,8 @@ useEffect(() => {
             <button
               key={idx}
               onClick={() => setHeroIndex(idx)}
-              aria-label={\`Go to slide ${idx + 1}\`}
-              className={\`h-[6px] w-[28px] transition-all duration-300 ${idx === heroIndex ? 'bg-white' : 'bg-white/40 hover:bg-white/70'}\`}
+              aria-label={`Go to slide ${idx + 1}`}
+              className={`h-[6px] w-[28px] transition-all duration-300 ${idx === heroIndex ? 'bg-white' : 'bg-white/40 hover:bg-white/70'}`}
             />
           ))}
         </div>
