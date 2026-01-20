@@ -9,13 +9,13 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center mb-32">
           <div>
             <span className="uppercase tracking-[0.3em] text-xs text-gray-400 font-bold mb-4 block">Our Story</span>
-            <h1 className="text-5xl md:text-7xl font-serif mb-12 leading-tight">Elevating the Denver <span className="italic">Built-Environment.</span></h1>
+            <h1 className="text-5xl md:text-7xl font-serif mb-12 leading-tight">Elevating Denver <span className="italic">Residential Construction.</span></h1>
             <div className="space-y-8 text-lg text-gray-600 leading-relaxed font-light">
               <p>
-                Synergistic Development was founded on a simple premise: custom home building should be a professional, transparent, and architecturally driven experience.
+                Synergistic Development was founded on a simple premise: homeowners deserve a professional, transparent, architecturally driven experience when building a custom home or undertaking a major remodel in Denver.
               </p>
               <p>
-                We aren't a volume builder. We are a boutique firm focused on high-performance homes and sophisticated urban infill. Our team brings a rigorous management style typically reserved for commercial construction into the custom residential world.
+                We are not a volume builder. We work exclusively with individual homeowners on custom homes in Denver, Colorado, whole-home renovations, additions, and large-scale remodeling. Our team applies disciplined planning, documentation, and jobsite management—so your project stays organized, communicated, and built to a high standard.
               </p>
             </div>
           </div>
@@ -30,22 +30,22 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-40">
            <div className="space-y-6">
              <h3 className="text-xl font-bold uppercase tracking-widest border-b border-black pb-4">Our Values</h3>
-             <p className="text-gray-500 leading-relaxed">Radical transparency in budgeting, uncompromising craftsmanship in execution, and a commitment to long-term architectural relevance.</p>
+             <p className="text-gray-500 leading-relaxed">Clear budgeting and decision-making, uncompromising craftsmanship, and a commitment to homes that feel intentional—now and years from now.</p>
            </div>
            <div className="space-y-6">
              <h3 className="text-xl font-bold uppercase tracking-widest border-b border-black pb-4">Our Neighborhoods</h3>
-             <p className="text-gray-500 leading-relaxed">Deeply rooted in Hilltop, Washington Park, Bonnie Brae, and the Highlands. We understand the specific zoning and historic nuances of Denver's elite enclaves.</p>
+             <p className="text-gray-500 leading-relaxed">Deeply rooted in Washington Park, Hilltop, Bonnie Brae, the Highlands, and Cherry Creek—and experienced throughout the surrounding Front Range. We understand the permitting, zoning, and existing-home conditions that shape large-scale home remodels in Denver.</p>
            </div>
            <div className="space-y-6">
              <h3 className="text-xl font-bold uppercase tracking-widest border-b border-black pb-4">Our Partners</h3>
-             <p className="text-gray-500 leading-relaxed">We work exclusively with Denver's premier architects and most disciplined trades. Our relationships are built on years of shared high standards.</p>
+             <p className="text-gray-500 leading-relaxed">We collaborate with Denver architects, designers, engineers, and specialty trades who share our standards. That team structure supports smoother planning, tighter execution, and a better homeowner experience.</p>
            </div>
         </div>
 
         <div className="bg-[#1a1a1a] text-white p-12 md:p-24 flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="max-w-xl">
             <h2 className="text-4xl font-serif mb-6">Who We Work With</h2>
-            <p className="text-gray-400 text-lg">We thrive when working with homeowners who value design, expect professional project management, and understand that quality takes time. Our ideal projects are those that push architectural boundaries.</p>
+            <p className="text-gray-400 text-lg">We are a strong fit for homeowners planning a custom home, addition, pop-top, or whole-home renovation—projects where design coordination, detailed planning, and high-quality execution matter. If you value clear communication, documented decisions, and a structured process, our team will be a strong long-term partner.</p>
           </div>
           <div className="flex flex-col space-y-4 text-sm uppercase tracking-[0.2em]">
             <span className="flex items-center gap-4"><MapPin size={16} /> Denver, Colorado</span>
