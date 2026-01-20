@@ -77,11 +77,11 @@ const StepItem: React.FC<StepItemProps> = ({ step, index, image }) => {
           <p className={`text-sm italic mt-4 transition-colors duration-1000 ${
             isVisible ? 'text-gray-400' : 'text-gray-300'
           }`}>
-            {index === 0 && "During this phase, we look at zoning constraints, budgetary expectations, and stylistic goals. We proceed only when alignment is absolute."}
-            {index === 1 && "The most critical work happens on paper. We coordinate with elite architects and engineers to ensure every spatial detail is resolved before mobilization."}
-            {index === 2 && "We utilize open-book accounting and meticulous bid comparisons, ensuring total fiscal clarity before a single shovel hits the ground."}
-            {index === 3 && "Disciplined site management, daily digital logs, and proactive problem solving. We manage the complexity so you don't have to."}
-            {index === 4 && "Our relationship continues beyond the keys. We provide a comprehensive digital home manual and structured check-ins for the life of the home."}
+            {index === 0 && "We confirm scope, feasibility, and priorities early—so your project starts with clear expectations on budget range, timeline, and decision-making."}
+            {index === 1 && "The best build is planned before work begins. We coordinate drawings, selections, and engineering so critical details are resolved before construction mobilizes."}
+            {index === 2 && "We finalize allowances, subcontractor pricing, and permitting so you understand the full picture before construction starts—no guesswork, no late surprises."}
+            {index === 3 && "Disciplined site management and steady communication keep your project predictable. We coordinate trades, inspections, and schedule impacts—so you are informed without being burdened."}
+            {index === 4 && "We close out with documentation, punch-list completion, and clear follow-up. You leave with organized records and a team that stands behind the work."}
           </p>
         </div>
       </div>
@@ -114,7 +114,7 @@ const Process: React.FC = () => {
           <span className="uppercase tracking-[0.3em] text-xs text-gray-400 font-bold mb-4 block">The Methodology</span>
           <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">Architecture First. <br /> Planning Always.</h1>
           <p className="text-xl text-gray-600 font-light leading-relaxed">
-            Construction is a complex coordination of thousands of variables. Our process is designed to bring order to that complexity through radical transparency and relentless planning.
+            Residential construction has thousands of moving parts—design decisions, permitting, pricing, scheduling, and jobsite coordination. Our process brings structure to that complexity with clear documentation, proactive communication, and disciplined planning.
           </p>
         </div>
 
@@ -132,11 +132,11 @@ const Process: React.FC = () => {
 
         {/* Bottom CTA */}
         <div className="mt-40 p-12 lg:p-24 bg-[#fcfcfc] border border-gray-100 flex flex-col items-center text-center">
-           <h3 className="text-3xl md:text-4xl font-serif mb-8">Have questions about your specific project?</h3>
+           <h3 className="text-3xl md:text-4xl font-serif mb-8">Have questions about your custom home or major remodel?</h3>
            <p className="text-gray-500 mb-12 max-w-xl font-light">
-             Every home is unique. We are happy to walk through our project management platform and show you exactly how we handle communication, budgets, and schedules.
+             Every project has its own constraints—zoning, existing conditions, design priorities, and timeline. We are happy to walk through how we manage communication, budgets, schedules, and approvals for large-scale residential construction in Denver and the Front Range.
            </p>
-           <Button to="/contact">Book a Process Walkthrough</Button>
+           <Button to="/contact">Request a Process Walkthrough</Button>
         </div>
       </div>
     </div>
