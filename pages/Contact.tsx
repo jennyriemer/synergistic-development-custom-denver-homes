@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center py-24">
           <h1 className="text-5xl font-serif mb-8">Thank You.</h1>
           <p className="text-xl text-gray-600 mb-12 font-light leading-relaxed">
-            We have received your inquiry. Given our selective approach, we review each project thoroughly to ensure it aligns with our standards and current capacity. You can expect a response within 48 business hours.
+            We have received your inquiry. Because we focus on custom homes and large-scale home remodels in Denver, we review each request to confirm scope and fit. You can expect a response within 48 business hours.
           </p>
           <Button to="/">Return Home</Button>
         </div>
@@ -35,10 +35,10 @@ const Contact: React.FC = () => {
               <span className="uppercase tracking-[0.3em] text-xs text-gray-400 font-bold mb-4 block">Inquiry</span>
               <h1 className="text-5xl md:text-7xl font-serif mb-8">Start the <br /> <span className="italic">Conversation.</span></h1>
               <p className="text-lg text-gray-500 font-light leading-relaxed mb-8">
-                Building a custom home is a significant undertaking. We are here to guide you through every architectural and financial decision. 
+                Custom homes and major renovations require disciplined planning. We guide Denver homeowners through scope, budget, and schedule decisions with clear communication—so you always know what is happening and what comes next. 
               </p>
               <p className="text-sm text-gray-400 font-medium italic">
-                * Please note we are currently booking for late 2025 starts.
+                * Please note: we are currently scheduling select 2026 start dates for custom homes and large-scale remodels in Denver and the Front Range.
               </p>
             </div>
 
@@ -88,10 +88,10 @@ const Contact: React.FC = () => {
                 <div className="space-y-2">
                   <label className="text-[10px] uppercase tracking-widest font-bold text-gray-400">Project Type</label>
                   <select className="w-full bg-transparent border-b border-gray-200 py-3 px-1 focus:border-black outline-none transition-colors appearance-none">
-                    <option>New Build</option>
-                    <option>Remodel</option>
-                    <option>Pop-Top</option>
-                    <option>Multi-Unit</option>
+                    <option>Custom Home (New Build)</option>
+                    <option>Whole-Home Remodel</option>
+                    <option>Addition / Pop-Top</option>
+                    <option>Major Renovation</option>
                   </select>
                 </div>
               </div>
