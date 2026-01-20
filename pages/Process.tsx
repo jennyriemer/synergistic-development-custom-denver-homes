@@ -9,7 +9,7 @@ const PROCESS_IMAGES = [
   "/projects/lakewood/7377%20Highland%20Drive%20Lakewood-large-011-2-Kitchen-1500x1000-72dpi.jpg", // Step 02
   "/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-007-17-Dining%20Room-1500x1000-72dpi.jpg", // Step 03
   "/projects/s%20penn/982%20S%20Pennsylvania%20St%20Denver-large-036-38-Back%20Yard-1500x1000-72dpi.jpg", // Step 04
-  "/projects/lakewood/7377%20Highland%20Drive%20Lakewood-large-027-33-Deck-1500x1000-72dpi.jpg", // Step 05
+  "/projects/emerson%202/925%20S%20Emerson%20St%20Denver%20CO-large-004-14-Living%20Room-1500x1000-72dpi.jpg", // Step 05
 ];
 
 interface StepItemProps {
